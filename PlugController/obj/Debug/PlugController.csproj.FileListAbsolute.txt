@@ -1,0 +1,9 @@
+D:\Dropbox\Projects\GitHub\PlugController\PlugController\bin\Debug\PlugController.exe.config
+D:\Dropbox\Projects\GitHub\PlugController\PlugController\bin\Debug\PlugController.exe
+D:\Dropbox\Projects\GitHub\PlugController\PlugController\bin\Debug\PlugController.pdb
+D:\Dropbox\Projects\GitHub\PlugController\PlugController\obj\Debug\PlugController.csprojResolveAssemblyReference.cache
+D:\Dropbox\Projects\GitHub\PlugController\PlugController\obj\Debug\PlugController.Properties.Resources.resources
+D:\Dropbox\Projects\GitHub\PlugController\PlugController\obj\Debug\PlugController.csproj.GenerateResource.Cache
+D:\Dropbox\Projects\GitHub\PlugController\PlugController\obj\Debug\PlugController.exe
+D:\Dropbox\Projects\GitHub\PlugController\PlugController\obj\Debug\PlugController.pdb
+D:\Dropbox\Projects\GitHub\PlugController\PlugController\obj\Debug\PlugController.FrmMain.resources
