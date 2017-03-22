@@ -29,38 +29,18 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
-            this.Btn1ON = new System.Windows.Forms.Button();
-            this.Btn1OFF = new System.Windows.Forms.Button();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
-            this.Btn2OFF = new System.Windows.Forms.Button();
-            this.Btn2ON = new System.Windows.Forms.Button();
-            this.Btn4OFF = new System.Windows.Forms.Button();
-            this.Btn4ON = new System.Windows.Forms.Button();
-            this.Btn3OFF = new System.Windows.Forms.Button();
-            this.Btn3ON = new System.Windows.Forms.Button();
             this.BtnALLOFF = new System.Windows.Forms.Button();
+            this.Btn4Off = new System.Windows.Forms.Button();
+            this.Btn4On = new System.Windows.Forms.Button();
+            this.Btn3Off = new System.Windows.Forms.Button();
+            this.Btn3On = new System.Windows.Forms.Button();
+            this.Btn2Off = new System.Windows.Forms.Button();
+            this.Btn2On = new System.Windows.Forms.Button();
+            this.Btn1Off = new System.Windows.Forms.Button();
             this.BtnALLON = new System.Windows.Forms.Button();
+            this.Btn1On = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // Btn1ON
-            // 
-            this.Btn1ON.Location = new System.Drawing.Point(13, 13);
-            this.Btn1ON.Name = "Btn1ON";
-            this.Btn1ON.Size = new System.Drawing.Size(75, 23);
-            this.Btn1ON.TabIndex = 0;
-            this.Btn1ON.Text = "1 ON";
-            this.Btn1ON.UseVisualStyleBackColor = true;
-            this.Btn1ON.Click += new System.EventHandler(this.Btn1ON_Click);
-            // 
-            // Btn1OFF
-            // 
-            this.Btn1OFF.Location = new System.Drawing.Point(100, 13);
-            this.Btn1OFF.Name = "Btn1OFF";
-            this.Btn1OFF.Size = new System.Drawing.Size(75, 23);
-            this.Btn1OFF.TabIndex = 4;
-            this.Btn1OFF.Text = "1 OFF";
-            this.Btn1OFF.UseVisualStyleBackColor = true;
-            this.Btn1OFF.Click += new System.EventHandler(this.Btn1OFF_Click);
             // 
             // webBrowser1
             // 
@@ -70,128 +50,158 @@
             this.webBrowser1.Size = new System.Drawing.Size(20, 20);
             this.webBrowser1.TabIndex = 10;
             // 
-            // Btn2OFF
-            // 
-            this.Btn2OFF.Location = new System.Drawing.Point(100, 42);
-            this.Btn2OFF.Name = "Btn2OFF";
-            this.Btn2OFF.Size = new System.Drawing.Size(75, 23);
-            this.Btn2OFF.TabIndex = 12;
-            this.Btn2OFF.Text = "2 OFF";
-            this.Btn2OFF.UseVisualStyleBackColor = true;
-            this.Btn2OFF.Click += new System.EventHandler(this.Btn2OFF_Click);
-            // 
-            // Btn2ON
-            // 
-            this.Btn2ON.Location = new System.Drawing.Point(13, 42);
-            this.Btn2ON.Name = "Btn2ON";
-            this.Btn2ON.Size = new System.Drawing.Size(75, 23);
-            this.Btn2ON.TabIndex = 11;
-            this.Btn2ON.Text = "2 ON";
-            this.Btn2ON.UseVisualStyleBackColor = true;
-            this.Btn2ON.Click += new System.EventHandler(this.Btn2ON_Click);
-            // 
-            // Btn4OFF
-            // 
-            this.Btn4OFF.Enabled = false;
-            this.Btn4OFF.Location = new System.Drawing.Point(100, 100);
-            this.Btn4OFF.Name = "Btn4OFF";
-            this.Btn4OFF.Size = new System.Drawing.Size(75, 23);
-            this.Btn4OFF.TabIndex = 16;
-            this.Btn4OFF.Text = "4 OFF";
-            this.Btn4OFF.UseVisualStyleBackColor = true;
-            this.Btn4OFF.Click += new System.EventHandler(this.Btn4OFF_Click);
-            // 
-            // Btn4ON
-            // 
-            this.Btn4ON.Enabled = false;
-            this.Btn4ON.Location = new System.Drawing.Point(13, 100);
-            this.Btn4ON.Name = "Btn4ON";
-            this.Btn4ON.Size = new System.Drawing.Size(75, 23);
-            this.Btn4ON.TabIndex = 15;
-            this.Btn4ON.Text = "4 ON";
-            this.Btn4ON.UseVisualStyleBackColor = true;
-            this.Btn4ON.Click += new System.EventHandler(this.Btn4ON_Click);
-            // 
-            // Btn3OFF
-            // 
-            this.Btn3OFF.Location = new System.Drawing.Point(100, 71);
-            this.Btn3OFF.Name = "Btn3OFF";
-            this.Btn3OFF.Size = new System.Drawing.Size(75, 23);
-            this.Btn3OFF.TabIndex = 14;
-            this.Btn3OFF.Text = "3 OFF";
-            this.Btn3OFF.UseVisualStyleBackColor = true;
-            this.Btn3OFF.Click += new System.EventHandler(this.Btn3OFF_Click);
-            // 
-            // Btn3ON
-            // 
-            this.Btn3ON.Location = new System.Drawing.Point(13, 71);
-            this.Btn3ON.Name = "Btn3ON";
-            this.Btn3ON.Size = new System.Drawing.Size(75, 23);
-            this.Btn3ON.TabIndex = 13;
-            this.Btn3ON.Text = "3 ON";
-            this.Btn3ON.UseVisualStyleBackColor = true;
-            this.Btn3ON.Click += new System.EventHandler(this.Btn3ON_Click);
-            // 
             // BtnALLOFF
             // 
-            this.BtnALLOFF.Location = new System.Drawing.Point(100, 129);
+            this.BtnALLOFF.BackgroundImage = global::PlugController.Properties.Resources._005_power_off;
+            this.BtnALLOFF.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BtnALLOFF.Location = new System.Drawing.Point(81, 237);
             this.BtnALLOFF.Name = "BtnALLOFF";
-            this.BtnALLOFF.Size = new System.Drawing.Size(75, 23);
+            this.BtnALLOFF.Size = new System.Drawing.Size(62, 49);
             this.BtnALLOFF.TabIndex = 18;
-            this.BtnALLOFF.Text = "ALL OFF";
+            this.BtnALLOFF.Text = "All";
             this.BtnALLOFF.UseVisualStyleBackColor = true;
             this.BtnALLOFF.Click += new System.EventHandler(this.BtnALLOFF_Click);
             // 
+            // Btn4Off
+            // 
+            this.Btn4Off.BackgroundImage = global::PlugController.Properties.Resources._004_computer_off;
+            this.Btn4Off.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Btn4Off.Location = new System.Drawing.Point(81, 178);
+            this.Btn4Off.Name = "Btn4Off";
+            this.Btn4Off.Size = new System.Drawing.Size(62, 49);
+            this.Btn4Off.TabIndex = 25;
+            this.Btn4Off.UseVisualStyleBackColor = true;
+            this.Btn4Off.Click += new System.EventHandler(this.Btn4OFF_Click);
+            // 
+            // Btn4On
+            // 
+            this.Btn4On.BackgroundImage = global::PlugController.Properties.Resources._004_computer;
+            this.Btn4On.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Btn4On.Location = new System.Drawing.Point(13, 178);
+            this.Btn4On.Name = "Btn4On";
+            this.Btn4On.Size = new System.Drawing.Size(62, 49);
+            this.Btn4On.TabIndex = 24;
+            this.Btn4On.UseVisualStyleBackColor = true;
+            this.Btn4On.Click += new System.EventHandler(this.Btn4ON_Click);
+            // 
+            // Btn3Off
+            // 
+            this.Btn3Off.BackgroundImage = global::PlugController.Properties.Resources._002_fan_off;
+            this.Btn3Off.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Btn3Off.Location = new System.Drawing.Point(81, 123);
+            this.Btn3Off.Name = "Btn3Off";
+            this.Btn3Off.Size = new System.Drawing.Size(62, 49);
+            this.Btn3Off.TabIndex = 23;
+            this.Btn3Off.UseVisualStyleBackColor = true;
+            this.Btn3Off.Click += new System.EventHandler(this.Btn3OFF_Click);
+            // 
+            // Btn3On
+            // 
+            this.Btn3On.BackgroundImage = global::PlugController.Properties.Resources._002_fan;
+            this.Btn3On.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Btn3On.Location = new System.Drawing.Point(13, 123);
+            this.Btn3On.Name = "Btn3On";
+            this.Btn3On.Size = new System.Drawing.Size(62, 49);
+            this.Btn3On.TabIndex = 22;
+            this.Btn3On.UseVisualStyleBackColor = true;
+            this.Btn3On.Click += new System.EventHandler(this.Btn3ON_Click);
+            // 
+            // Btn2Off
+            // 
+            this.Btn2Off.BackgroundImage = global::PlugController.Properties.Resources._003_lamp_off;
+            this.Btn2Off.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Btn2Off.Location = new System.Drawing.Point(81, 68);
+            this.Btn2Off.Name = "Btn2Off";
+            this.Btn2Off.Size = new System.Drawing.Size(62, 49);
+            this.Btn2Off.TabIndex = 21;
+            this.Btn2Off.UseVisualStyleBackColor = true;
+            this.Btn2Off.Click += new System.EventHandler(this.Btn2OFF_Click);
+            // 
+            // Btn2On
+            // 
+            this.Btn2On.BackgroundImage = global::PlugController.Properties.Resources._003_lamp;
+            this.Btn2On.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Btn2On.Location = new System.Drawing.Point(13, 68);
+            this.Btn2On.Name = "Btn2On";
+            this.Btn2On.Size = new System.Drawing.Size(62, 49);
+            this.Btn2On.TabIndex = 20;
+            this.Btn2On.UseVisualStyleBackColor = true;
+            this.Btn2On.Click += new System.EventHandler(this.Btn2ON_Click);
+            // 
+            // Btn1Off
+            // 
+            this.Btn1Off.BackgroundImage = global::PlugController.Properties.Resources._003_lamp_off;
+            this.Btn1Off.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Btn1Off.Location = new System.Drawing.Point(81, 13);
+            this.Btn1Off.Name = "Btn1Off";
+            this.Btn1Off.Size = new System.Drawing.Size(62, 49);
+            this.Btn1Off.TabIndex = 19;
+            this.Btn1Off.UseVisualStyleBackColor = true;
+            this.Btn1Off.Click += new System.EventHandler(this.Btn1OFF_Click);
+            // 
             // BtnALLON
             // 
-            this.BtnALLON.Location = new System.Drawing.Point(13, 129);
+            this.BtnALLON.BackgroundImage = global::PlugController.Properties.Resources._005_power_on;
+            this.BtnALLON.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BtnALLON.Location = new System.Drawing.Point(12, 237);
             this.BtnALLON.Name = "BtnALLON";
-            this.BtnALLON.Size = new System.Drawing.Size(75, 23);
+            this.BtnALLON.Size = new System.Drawing.Size(62, 49);
             this.BtnALLON.TabIndex = 17;
-            this.BtnALLON.Text = "ALL ON";
+            this.BtnALLON.Text = "All";
             this.BtnALLON.UseVisualStyleBackColor = true;
             this.BtnALLON.Click += new System.EventHandler(this.BtnALLON_Click);
+            // 
+            // Btn1On
+            // 
+            this.Btn1On.BackgroundImage = global::PlugController.Properties.Resources._003_lamp;
+            this.Btn1On.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Btn1On.Location = new System.Drawing.Point(13, 13);
+            this.Btn1On.Name = "Btn1On";
+            this.Btn1On.Size = new System.Drawing.Size(62, 49);
+            this.Btn1On.TabIndex = 0;
+            this.Btn1On.UseVisualStyleBackColor = true;
+            this.Btn1On.Click += new System.EventHandler(this.Btn1ON_Click);
             // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(187, 171);
+            this.ClientSize = new System.Drawing.Size(157, 298);
+            this.Controls.Add(this.Btn4Off);
+            this.Controls.Add(this.Btn4On);
+            this.Controls.Add(this.Btn3Off);
+            this.Controls.Add(this.Btn3On);
+            this.Controls.Add(this.Btn2Off);
+            this.Controls.Add(this.Btn2On);
+            this.Controls.Add(this.Btn1Off);
             this.Controls.Add(this.BtnALLOFF);
             this.Controls.Add(this.BtnALLON);
-            this.Controls.Add(this.Btn4OFF);
-            this.Controls.Add(this.Btn4ON);
-            this.Controls.Add(this.Btn3OFF);
-            this.Controls.Add(this.Btn3ON);
-            this.Controls.Add(this.Btn2OFF);
-            this.Controls.Add(this.Btn2ON);
             this.Controls.Add(this.webBrowser1);
-            this.Controls.Add(this.Btn1OFF);
-            this.Controls.Add(this.Btn1ON);
+            this.Controls.Add(this.Btn1On);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Remote Plug Controller";
+            this.Text = "Plug Controller";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button Btn1ON;
-        private System.Windows.Forms.Button Btn1OFF;
+        private System.Windows.Forms.Button Btn1On;
         private System.Windows.Forms.WebBrowser webBrowser1;
-        private System.Windows.Forms.Button Btn2OFF;
-        private System.Windows.Forms.Button Btn2ON;
-        private System.Windows.Forms.Button Btn4OFF;
-        private System.Windows.Forms.Button Btn4ON;
-        private System.Windows.Forms.Button Btn3OFF;
-        private System.Windows.Forms.Button Btn3ON;
         private System.Windows.Forms.Button BtnALLOFF;
         private System.Windows.Forms.Button BtnALLON;
+        private System.Windows.Forms.Button Btn1Off;
+        private System.Windows.Forms.Button Btn2On;
+        private System.Windows.Forms.Button Btn2Off;
+        private System.Windows.Forms.Button Btn3On;
+        private System.Windows.Forms.Button Btn3Off;
+        private System.Windows.Forms.Button Btn4On;
+        private System.Windows.Forms.Button Btn4Off;
     }
 }
 

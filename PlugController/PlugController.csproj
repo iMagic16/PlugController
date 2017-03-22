@@ -36,7 +36,7 @@
     <StartupObject>PlugController.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>power-symbol-7.ico</ApplicationIcon>
+    <ApplicationIcon>001-socket.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -71,6 +71,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -86,8 +87,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="power-symbol-7.ico" />
-    <Content Include="stock-vector-cable-wire-computer-and-plug-icons-set-261677258.ico" />
+    <None Include="ico\png\001-socket.png" />
+    <None Include="ico\png\002-fan.png" />
+    <None Include="ico\png\003-lamp.png" />
+    <None Include="ico\png\004-computer.png" />
+    <None Include="ico\png\002-fan-off.png" />
+    <None Include="ico\png\003-lamp-off.png" />
+    <None Include="ico\png\004-computer-off.png" />
+    <None Include="ico\png\005-power-off.png" />
+    <None Include="ico\png\005-power-on.png" />
+    <Content Include="001-socket.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

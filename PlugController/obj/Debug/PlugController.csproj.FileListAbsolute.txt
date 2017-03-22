@@ -7,3 +7,12 @@ D:\Dropbox\Projects\GitHub\PlugController\PlugController\obj\Debug\PlugControlle
 D:\Dropbox\Projects\GitHub\PlugController\PlugController\obj\Debug\PlugController.exe
 D:\Dropbox\Projects\GitHub\PlugController\PlugController\obj\Debug\PlugController.pdb
 D:\Dropbox\Projects\GitHub\PlugController\PlugController\obj\Debug\PlugController.FrmMain.resources
+D:\Google Drive\Projects\GitHub\PlugController\PlugController\bin\Debug\PlugController.exe.config
+D:\Google Drive\Projects\GitHub\PlugController\PlugController\obj\Debug\PlugController.exe
+D:\Google Drive\Projects\GitHub\PlugController\PlugController\obj\Debug\PlugController.pdb
+D:\Google Drive\Projects\GitHub\PlugController\PlugController\bin\Debug\PlugController.exe
+D:\Google Drive\Projects\GitHub\PlugController\PlugController\bin\Debug\PlugController.pdb
+D:\Google Drive\Projects\GitHub\PlugController\PlugController\obj\Debug\PlugController.csprojResolveAssemblyReference.cache
+D:\Google Drive\Projects\GitHub\PlugController\PlugController\obj\Debug\PlugController.FrmMain.resources
+D:\Google Drive\Projects\GitHub\PlugController\PlugController\obj\Debug\PlugController.Properties.Resources.resources
+D:\Google Drive\Projects\GitHub\PlugController\PlugController\obj\Debug\PlugController.csproj.GenerateResource.Cache

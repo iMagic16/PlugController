@@ -4,12 +4,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PlugController")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Plug Controller")]
+[assembly: AssemblyDescription("Remote Plug controller for use with Raspberry Pi 433 Remote Socket Control System")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("James Walsh")]
-[assembly: AssemblyProduct("PlugController")]
-[assembly: AssemblyCopyright("Copyright ©  2016")]
+[assembly: AssemblyProduct("Plug Controller")]
+[assembly: AssemblyCopyright("Copyright © James Walsh 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,4 +32,4 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.3")]
