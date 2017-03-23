@@ -118,31 +118,31 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="003-lamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\ico\png\003-lamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="001_socket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\001-socket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="001-socket" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\ico\png\001-socket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="002_fan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\002-fan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="002-fan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\ico\png\002-fan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="002_fan_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\002-fan-off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="004-computer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\ico\png\004-computer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="003_lamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\003-lamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="002-fan-off" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\ico\png\002-fan-off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="003_lamp_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\003-lamp-off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="003-lamp-off" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\ico\png\003-lamp-off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="004_computer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\004-computer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="004-computer-off" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\ico\png\004-computer-off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="004_computer_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\004-computer-off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="005-power-off" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\ico\png\005-power-off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="005_power_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\005-power-off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="005-power-on" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\ico\png\005-power-on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="005_power_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\005-power-on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

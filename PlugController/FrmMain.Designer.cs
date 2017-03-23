@@ -155,7 +155,7 @@
             // 
             this.Btn1On.BackgroundImage = global::PlugController.Properties.Resources._003_lamp;
             this.Btn1On.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Btn1On.Location = new System.Drawing.Point(13, 13);
+            this.Btn1On.Location = new System.Drawing.Point(13, 12);
             this.Btn1On.Name = "Btn1On";
             this.Btn1On.Size = new System.Drawing.Size(62, 49);
             this.Btn1On.TabIndex = 0;
@@ -181,7 +181,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "FrmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Plug Controller";

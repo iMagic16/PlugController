@@ -87,16 +87,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ico\png\001-socket.png" />
-    <None Include="ico\png\002-fan.png" />
-    <None Include="ico\png\003-lamp.png" />
-    <None Include="ico\png\004-computer.png" />
-    <None Include="ico\png\002-fan-off.png" />
-    <None Include="ico\png\003-lamp-off.png" />
-    <None Include="ico\png\004-computer-off.png" />
-    <None Include="ico\png\005-power-off.png" />
-    <None Include="ico\png\005-power-on.png" />
     <Content Include="001-socket.ico" />
+    <None Include="img\005-power-on.png" />
+    <None Include="img\005-power-off.png" />
+    <None Include="img\004-computer-off.png" />
+    <None Include="img\004-computer.png" />
+    <None Include="img\003-lamp-off.png" />
+    <None Include="img\003-lamp.png" />
+    <None Include="img\002-fan-off.png" />
+    <None Include="img\002-fan.png" />
+    <None Include="img\001-socket.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -65,7 +65,7 @@ namespace PlugController.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap _001_socket {
             get {
-                object obj = ResourceManager.GetObject("001-socket", resourceCulture);
+                object obj = ResourceManager.GetObject("001_socket", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -75,7 +75,7 @@ namespace PlugController.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap _002_fan {
             get {
-                object obj = ResourceManager.GetObject("002-fan", resourceCulture);
+                object obj = ResourceManager.GetObject("002_fan", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -85,7 +85,7 @@ namespace PlugController.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap _002_fan_off {
             get {
-                object obj = ResourceManager.GetObject("002-fan-off", resourceCulture);
+                object obj = ResourceManager.GetObject("002_fan_off", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -95,7 +95,7 @@ namespace PlugController.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap _003_lamp {
             get {
-                object obj = ResourceManager.GetObject("003-lamp", resourceCulture);
+                object obj = ResourceManager.GetObject("003_lamp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -105,7 +105,7 @@ namespace PlugController.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap _003_lamp_off {
             get {
-                object obj = ResourceManager.GetObject("003-lamp-off", resourceCulture);
+                object obj = ResourceManager.GetObject("003_lamp_off", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -115,7 +115,7 @@ namespace PlugController.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap _004_computer {
             get {
-                object obj = ResourceManager.GetObject("004-computer", resourceCulture);
+                object obj = ResourceManager.GetObject("004_computer", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -125,7 +125,7 @@ namespace PlugController.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap _004_computer_off {
             get {
-                object obj = ResourceManager.GetObject("004-computer-off", resourceCulture);
+                object obj = ResourceManager.GetObject("004_computer_off", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -135,7 +135,7 @@ namespace PlugController.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap _005_power_off {
             get {
-                object obj = ResourceManager.GetObject("005-power-off", resourceCulture);
+                object obj = ResourceManager.GetObject("005_power_off", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -145,7 +145,7 @@ namespace PlugController.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap _005_power_on {
             get {
-                object obj = ResourceManager.GetObject("005-power-on", resourceCulture);
+                object obj = ResourceManager.GetObject("005_power_on", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
