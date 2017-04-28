@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.BtnALLOFF = new System.Windows.Forms.Button();
@@ -40,6 +41,7 @@
             this.Btn1Off = new System.Windows.Forms.Button();
             this.BtnALLON = new System.Windows.Forms.Button();
             this.Btn1On = new System.Windows.Forms.Button();
+            this.TrayIcon = new System.Windows.Forms.NotifyIcon(this.components);
             this.SuspendLayout();
             // 
             // webBrowser1
@@ -162,6 +164,13 @@
             this.Btn1On.UseVisualStyleBackColor = true;
             this.Btn1On.Click += new System.EventHandler(this.Btn1ON_Click);
             // 
+            // TrayIcon
+            // 
+            this.TrayIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("TrayIcon.Icon")));
+            this.TrayIcon.Text = "Plug Controller";
+            this.TrayIcon.Visible = true;
+            this.TrayIcon.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.TrayIcon_MouseDoubleClick);
+            // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -181,9 +190,12 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Plug Controller";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmMain_FormClosing);
+            this.Load += new System.EventHandler(this.FrmMain_Load);
             this.ResumeLayout(false);
 
         }
@@ -201,6 +213,7 @@
         private System.Windows.Forms.Button Btn3Off;
         private System.Windows.Forms.Button Btn4On;
         private System.Windows.Forms.Button Btn4Off;
+        private System.Windows.Forms.NotifyIcon TrayIcon;
     }
 }
 

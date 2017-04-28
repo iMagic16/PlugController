@@ -155,6 +155,28 @@ namespace PlugController
 
         }
 
+        private void FrmMain_Load(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+            this.ShowInTaskbar = false;
+        }
+
+        private void FrmMain_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                this.WindowState = FormWindowState.Minimized;
+                this.ShowInTaskbar = false;
+                e.Cancel = true;
+            }
+        }
+
+        private void TrayIcon_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal;
+            this.ShowInTaskbar = true;
+        }
+
         private void Btn4OFF_Click(object sender, EventArgs e)
         {
             TurnLightOff(4);
